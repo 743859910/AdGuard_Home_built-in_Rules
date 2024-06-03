@@ -4,9 +4,9 @@ on:
     paths-ignore:
       - 'README.md'
       - '*.md'
-    branches: [ master ]
+    branches: [ main ]
   schedule:
-    - cron: 0 */8 * * *
+    - cron: 0 */12 * * *
   workflow_dispatch:
 
 env:
@@ -30,7 +30,7 @@ jobs:
         run: mvn -B package
 
       - name: Run Jar
-        run:  java -jar ./target/AdGuard_Home_Rules-1.0.0.jar
+        run:  java -jar ./target/adg-rule-1.0.0.jar
 
       - name: Commit Changes
         id: commit
@@ -40,8 +40,8 @@ jobs:
           else
             echo "status=success" >> $GITHUB_OUTPUT
             git add .
-            git config --local user.email "743859910@qq.com"
-            git config --local user.name "743859910"
+            git config --local user.email "xjianglin@gmail.com"
+            git config --local user.name "hululu1068"
             git commit -m "CI Updated at $(date +'%Y-%m-%d %H:%M:%S')" -a
           fi
 

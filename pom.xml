@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <name>AdGuard_Home_Rules</name>
+    <name>adg-rule</name>
     <groupId>org.fordes</groupId>
-    <description>AdGuard_Home_Rules</description>
+    <description>adg-rule</description>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>AdGuard_Home_Rules</artifactId>
+    <artifactId>adg-rule</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -14,8 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.7.0</spring-boot.version>
-        <guava.version>32.0.0-jre</guava.version>
-        <hutool.version>5.8.21</hutool.version>
+        <guava.version>31.0-jre</guava.version>
+        <hutool.version>5.8.0</hutool.version>
     </properties>
 
     <dependencies>
@@ -79,7 +79,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.4.1</version>
                 <configuration>
-                    <masterClass>org.fordes.adg.rule.AdgRuleApplication</masterClass>
+                    <mainClass>org.fordes.adg.rule.AdgRuleApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
