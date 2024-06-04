@@ -1,8 +1,8 @@
-# AdGuard_Home_Rules
+# AdGuard_Home_built-in_Rules
 
 ---
 
-AdGuard Home 官方内置规则
+AdGuard Home 官方内置规则汇总
 
 PS：关于DNS拦截列表这里，个人建议不要求多而求精。
 过多的过滤规则会影响你的上网速度，并且会发生冲突，导致不该过滤的也被过滤了，导致网页或视频打不开！
@@ -75,28 +75,28 @@ PS：关于DNS拦截列表这里，个人建议不要求多而求精。
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_Rules/master/img/1.webp">
+  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_built-in_Rules/master/img/1.webp">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_Rules/master/img/2.webp">
+  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_built-in_Rules/master/img/2.webp">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_Rules/master/img/3.webp">
+  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_built-in_Rules/master/img/3.webp">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_Rules/master/img/4.webp">
+  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_built-in_Rules/master/img/4.webp">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_Rules/master/img/5.webp">
+  <img src="https://raw.githubusercontent.com/743859910/AdGuard_Home_built-in_Rules/master/img/5.webp">
 </p>
 
 ---
 
-![Visitor Count](https://profile-counter.glitch.me/{AdGuard_Home_Rules}/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/{AdGuard_Home_built-in_Rules}/count.svg)
 
 ---
 
